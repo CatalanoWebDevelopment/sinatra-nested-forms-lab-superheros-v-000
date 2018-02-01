@@ -13,4 +13,5 @@ class Team
   def self.clear
     TEAMS.clear
   end
+  
 end
