@@ -3,7 +3,7 @@ class SuperHero
   HEROES = []
 
   def initialize(args)
-    @name = args[:name]
+    @name = args"team[:name]"
     @power = args[:power]
     @bio = args[:bio]
     HEROES << self
