@@ -4,6 +4,8 @@ class SuperHero
 
   def initialize(args)
     @name = args[:name]
+    @power = args[:power]
+    @bio = args[:bio]
     HEROES << self
   end
 
@@ -14,5 +16,5 @@ class SuperHero
   def self.clear
     HEROES.clear
   end
-  
+
 end
