@@ -3,6 +3,8 @@ class Team
   TEAMS = []
 
   def initialize(args)
+    @name = args[:name]
+    @motto = args[:motto]
     TEAMS << self
   end
 
@@ -13,5 +15,5 @@ class Team
   def self.clear
     TEAMS.clear
   end
-  
+
 end
