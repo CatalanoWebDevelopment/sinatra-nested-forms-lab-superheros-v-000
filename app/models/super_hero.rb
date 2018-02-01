@@ -14,4 +14,5 @@ class SuperHero
   def self.clear
     HEROES.clear
   end
+  
 end
