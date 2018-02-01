@@ -1,3 +1,5 @@
+require 'pry'
+
 class SuperHero
   attr_accessor :name, :power, :bio
   HEROES = []
