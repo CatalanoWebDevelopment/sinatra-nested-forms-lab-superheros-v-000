@@ -5,6 +5,7 @@ class SuperHero
   HEROES = []
 
   def initialize(args)
+    binding.pry
     @name = args"team[:name]"
     @power = args[:power]
     @bio = args[:bio]
